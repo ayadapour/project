@@ -1,0 +1,20 @@
+
+// router.delete('/article/:id',  async(req,res)=>{
+//     try{
+//         const _id = req.params.id
+//         const post = await postModel.findOneAndRemove(
+//             {   
+//                 _id , 
+//             })
+//         if(!post) throw new Error('invalid post id')
+//         res.send("deleted")
+//     }
+//     catch(error){
+//         res.status(500).send({
+//             apiStatus: false,
+//             data: error.message,
+//             message:'user register error'
+//         })
+//     }
+
+// })
